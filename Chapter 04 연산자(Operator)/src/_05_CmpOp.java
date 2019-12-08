@@ -4,60 +4,60 @@ public class _05_CmpOp {
 		int A = 10, B = 20;
 		
 		if(true)
-			System.out.println("Âü ÀÔ´Ï´Ù!");
+			System.out.println("ì°¸ ìž…ë‹ˆë‹¤!");
 		else
-			System.out.println("°ÅÁþ ÀÔ´Ï´Ù!");
+			System.out.println("ê±°ì§“ ìž…ë‹ˆë‹¤!");
 		
 		if(A > B)
-			System.out.println("A°¡ ´õ Å©´Ù!");
+			System.out.println("Aê°€ ë” í¬ë‹¤!");
 		else
-			System.out.println("A°¡ ´õ Å©Áö ¾Ê´Ù!");
+			System.out.println("Aê°€ ë” í¬ì§€ ì•Šë‹¤!");
 		
 		if(A != B)
-			System.out.println("A¿Í B´Â ´Ù¸£´Ù!");
+			System.out.println("Aì™€ BëŠ” ë‹¤ë¥´ë‹¤!");
 		else
-			System.out.println("A¿Í B´Â °°´Ù!");
+			System.out.println("Aì™€ BëŠ” ê°™ë‹¤!");
 	}
 
 }
 
 /*
-¡á °ü°è ¿¬»êÀÚ (<, >, <=, >=, ==, !=)
-°ü°è ¿¬»êÀÚ´Â Å©±â ¹× µ¿µî °ü°è¸¦ µûÁö´Â ¿¬»êÀÚÀÌ´Ù. Áï °ü°è ¿¬»êÀÚ´Â µÎ ÇÇ¿¬»êÀÚÀÇ Å©±â °ü°è¸¦ µûÁ®ÁÖ´Â ÀÌÇ× ¿¬»êÀÚÀÌ´Ù.
-µû¶ó¼­ 'ºñ±³ ¿¬»êÀÚ'¶ó°íµµ ÇÑ´Ù. µÎ ÇÇ¿¬»êÀÚÀÇ °ªÀ» ºñ±³ÇÏ±â ¶§¹®ÀÌ´Ù.
+â–  ê´€ê³„ ì—°ì‚°ìž (<, >, <=, >=, ==, !=)
+ê´€ê³„ ì—°ì‚°ìžëŠ” í¬ê¸° ë° ë™ë“± ê´€ê³„ë¥¼ ë”°ì§€ëŠ” ì—°ì‚°ìžì´ë‹¤. ì¦‰ ê´€ê³„ ì—°ì‚°ìžëŠ” ë‘ í”¼ì—°ì‚°ìžì˜ í¬ê¸° ê´€ê³„ë¥¼ ë”°ì ¸ì£¼ëŠ” ì´í•­ ì—°ì‚°ìžì´ë‹¤.
+ë”°ë¼ì„œ 'ë¹„êµ ì—°ì‚°ìž'ë¼ê³ ë„ í•œë‹¤. ë‘ í”¼ì—°ì‚°ìžì˜ ê°’ì„ ë¹„êµí•˜ê¸° ë•Œë¬¸ì´ë‹¤.
 
-¿¬»êÀÚ    ¿¬»êÀÚÀÇ ±â´É                       °áÇÕ¹æÇâ
-<     ¿¹) n1 < n2          ¡æ
-      n1ÀÌ n2º¸´Ù ÀÛÀº°¡?
->     ¿¹) n1 > n2          ¡æ
-      n1ÀÌ n2º¸´Ù Å«°¡?
-<=    ¿¹) n1 <= n2         ¡æ
-      n1ÀÌ n2º¸´Ù °°°Å³ª ÀÛÀº°¡?
->=    ¿¹) n1 >= n2         ¡æ
-      n1ÀÌ n2º¸´Ù °°°Å³ª Å«°¡?
-==    ¿¹) n1 == n2         ¡æ
-      n1°ú n2°¡ °°Àº°¡?
-!=    ¿¹) n1 != n2         ¡æ
-      n1°ú n2°¡ ´Ù¸¥°¡?
+ì—°ì‚°ìž    ì—°ì‚°ìžì˜ ê¸°ëŠ¥     ê²°í•©ë°©í–¥
+<     ì˜ˆ) n1 < n2          â†’
+      n1ì´ n2ë³´ë‹¤ ìž‘ì€ê°€?
+>     ì˜ˆ) n1 > n2          â†’
+      n1ì´ n2ë³´ë‹¤ í°ê°€?
+<=    ì˜ˆ) n1 <= n2         â†’
+      n1ì´ n2ë³´ë‹¤ ê°™ê±°ë‚˜ ìž‘ì€ê°€?
+>=    ì˜ˆ) n1 >= n2         â†’
+      n1ì´ n2ë³´ë‹¤ ê°™ê±°ë‚˜ í°ê°€?
+==    ì˜ˆ) n1 == n2         â†’
+      n1ê³¼ n2ê°€ ê°™ì€ê°€?
+!=    ì˜ˆ) n1 != n2         â†’
+      n1ê³¼ n2ê°€ ë‹¤ë¥¸ê°€?
       
-À§ÀÇ °ü°è ¿¬»êÀÚµéÀº ¿¬»êÀÇ °á°ú¿¡ µû¶ó¼­ true ¶Ç´Â false¸¦ ¹ÝÈ¯ÇÑ´Ù.
+ìœ„ì˜ ê´€ê³„ ì—°ì‚°ìžë“¤ì€ ì—°ì‚°ì˜ ê²°ê³¼ì— ë”°ë¼ì„œ true ë˜ëŠ” falseë¥¼ ë°˜í™˜í•œë‹¤.
 
    A == B
    
-A¿Í BÀÇ °ªÀÌ µ¿ÀÏÇÏ´Ù¸é true, µ¿ÀÏÇÏÁö ¾ÊÀ¸¸é false°¡ ¹ÝÈ¯µÈ´Ù.
-Âü°í·Î ¿¬»êÀÚÀÇ ¿ì¼±¼øÀ§°¡ =º¸´Ù ==°¡ ÈÎ¾À ³ôÀ¸¹Ç·Î °ýÈ£´Â »ý·«ÇÒ ¼ö ÀÖ´Ù.
+Aì™€ Bì˜ ê°’ì´ ë™ì¼í•˜ë‹¤ë©´ true, ë™ì¼í•˜ì§€ ì•Šìœ¼ë©´ falseê°€ ë°˜í™˜ëœë‹¤.
+ì°¸ê³ ë¡œ ì—°ì‚°ìžì˜ ìš°ì„ ìˆœìœ„ê°€ =ë³´ë‹¤ ==ê°€ í›¨ì”¬ ë†’ìœ¼ë¯€ë¡œ ê´„í˜¸ëŠ” ìƒëžµí•  ìˆ˜ ìžˆë‹¤.
 
    boolean result = (A == B);
    
-º¯¼ö result¿¡´Â A¿Í B°¡ °°À» °æ¿ì true, ´Ù¸¦ °æ¿ì false°¡ ÀúÀåµÈ´Ù. ÀÌ·¸µí °ü°è ¿¬»êÀÚ°¡ Á¦°øÇÏ´Â ±â´ÉÀº
-¿ì¸®¿¡°Ô ÀÍ¼÷ÇÏ±â ¶§¹®¿¡ ¿¬»êÀÚÀÇ »ç¿ë ¹æ¹ý¿¡ ´ëÇØ¼­´Â ±×¸® ±Ã±ÝÇÒ °ÍÀÌ ¾ø´Ù.
-¿ÀÈ÷·Á ¿©·¯ºÐÀº ÀÌ·¯ÇÑ ¿¬»êÀÚµéÀÇ È°¿ë ¹æ¾ÈÀÌ ´õ ±Ã±ÝÇÒ °ÍÀÌ´Ù. ±×·¡¼­ ÇÊÀÚ´Â ´ÙÀ½ Chapter¿¡¼­ ±¸Ã¼ÀûÀ¸·Î ¼³¸íÇÏ´Â
-if~else¹®ÀÌ¶ó´Â °ÍÀ» ÀÌ¿ëÇØ¼­ °ü°è ¿¬»êÀÚ¿Í ´õºÒ¾î true¿Í falseÀÇ È°¿ë¿¡ ´ëÇØ Á¶±Ý ¾ð±ÞÇÏ°íÀÚ ÇÑ´Ù.
-Âü°í·Î if~else¹®¿¡ ´ëÇØ¼­´Â ´ÙÀ½ Chapter¿¡¼­ Á¦´ë·Î µÈ ¼³¸íÀÌ ÀÌ·ïÁö´Ï ¿©±â¼­´Â °£´ÜÈ÷ ¸À¸¸ º¸¸é µÈ´Ù.
+ë³€ìˆ˜ resultì—ëŠ” Aì™€ Bê°€ ê°™ì„ ê²½ìš° true, ë‹¤ë¥¼ ê²½ìš° falseê°€ ì €ìž¥ëœë‹¤. ì´ë ‡ë“¯ ê´€ê³„ ì—°ì‚°ìžê°€ ì œê³µí•˜ëŠ” ê¸°ëŠ¥ì€
+ìš°ë¦¬ì—ê²Œ ìµìˆ™í•˜ê¸° ë•Œë¬¸ì— ì—°ì‚°ìžì˜ ì‚¬ìš© ë°©ë²•ì— ëŒ€í•´ì„œëŠ” ê·¸ë¦¬ ê¶ê¸ˆí•  ê²ƒì´ ì—†ë‹¤.
+ì˜¤ížˆë ¤ ì—¬ëŸ¬ë¶„ì€ ì´ëŸ¬í•œ ì—°ì‚°ìžë“¤ì˜ í™œìš© ë°©ì•ˆì´ ë” ê¶ê¸ˆí•  ê²ƒì´ë‹¤. ê·¸ëž˜ì„œ í•„ìžëŠ” ë‹¤ìŒ Chapterì—ì„œ êµ¬ì²´ì ìœ¼ë¡œ ì„¤ëª…í•˜ëŠ”
+if~elseë¬¸ì´ë¼ëŠ” ê²ƒì„ ì´ìš©í•´ì„œ ê´€ê³„ ì—°ì‚°ìžì™€ ë”ë¶ˆì–´ trueì™€ falseì˜ í™œìš©ì— ëŒ€í•´ ì¡°ê¸ˆ ì–¸ê¸‰í•˜ê³ ìž í•œë‹¤.
+ì°¸ê³ ë¡œ if~elseë¬¸ì— ëŒ€í•´ì„œëŠ” ë‹¤ìŒ Chapterì—ì„œ ì œëŒ€ë¡œ ëœ ì„¤ëª…ì´ ì´ë¤„ì§€ë‹ˆ ì—¬ê¸°ì„œëŠ” ê°„ë‹¨ížˆ ë§›ë§Œ ë³´ë©´ ëœë‹¤.
 
-ÀÌ·¸µí °ü°è ¿¬»êÀÚ¿Í ´õºÒ¾î true¿Í false´Â ÇÁ·Î±×·¥ÀÇ Èå¸§À» Á¶ÀýÇÏ´Â ¿ëµµ·Î »ç¿ëÀÌ µÈ´Ù. À§ ¿¹Á¦¿¡¼­´Â
-A ¶Ç´Â B¿¡ ÀúÀåµÈ °ª¿¡ µû¶ó¼­ ½ÇÇàµÇ´Â ¹®ÀåÀÇ ±¸¼ºÀÌ ´Þ¶óÁø´Ù. ÀÌÁ¦ Âü°ú °ÅÁþÀ» Ç¥ÇöÇÏ±â À§ÇÑ µ¥ÀÌÅÍ true¿Í false°¡
-ÇÊ¿äÇÑ ÀÌÀ¯¸¦ Á¶±ÝÀÌ¶óµµ ÀÌÇØÇÒ ¼ö ÀÖ°Ú´Â°¡? ±×¸®°í ¾Õ¼­ if~else¿¡ ´ëÇØ¼­´Â ¸À¸¸ º¸ÀÚ°í ÇÏ¿´´Âµ¥, À§ÀÇ ¿¹Á¦¿¡¼­
-º¸¿©ÁØ °Í ÀÌ»óÀÇ ³»¿ëÀÌ Á¸ÀçÇÏÁö ¾Ê´Â´Ù. µû¶ó¼­ À§ÀÇ ¿¹Á¦¸¸À¸·Îµµ if~else°¡ ÀÌÇØµÇ¾ú´Ù¸é, ´ÙÀ½ Chapter¿¡¼­
-°øºÎÇÒ ³»¿ëÀÌ ±×¸¸Å­ ÁÙ¾îµç ¼ÀÀÌ´Ù.
+ì´ë ‡ë“¯ ê´€ê³„ ì—°ì‚°ìžì™€ ë”ë¶ˆì–´ trueì™€ falseëŠ” í”„ë¡œê·¸ëž¨ì˜ íë¦„ì„ ì¡°ì ˆí•˜ëŠ” ìš©ë„ë¡œ ì‚¬ìš©ì´ ëœë‹¤. ìœ„ ì˜ˆì œì—ì„œëŠ”
+A ë˜ëŠ” Bì— ì €ìž¥ëœ ê°’ì— ë”°ë¼ì„œ ì‹¤í–‰ë˜ëŠ” ë¬¸ìž¥ì˜ êµ¬ì„±ì´ ë‹¬ë¼ì§„ë‹¤. ì´ì œ ì°¸ê³¼ ê±°ì§“ì„ í‘œí˜„í•˜ê¸° ìœ„í•œ ë°ì´í„° trueì™€ falseê°€
+í•„ìš”í•œ ì´ìœ ë¥¼ ì¡°ê¸ˆì´ë¼ë„ ì´í•´í•  ìˆ˜ ìžˆê² ëŠ”ê°€? ê·¸ë¦¬ê³  ì•žì„œ if~elseì— ëŒ€í•´ì„œëŠ” ë§›ë§Œ ë³´ìžê³  í•˜ì˜€ëŠ”ë°, ìœ„ì˜ ì˜ˆì œì—ì„œ
+ë³´ì—¬ì¤€ ê²ƒ ì´ìƒì˜ ë‚´ìš©ì´ ì¡´ìž¬í•˜ì§€ ì•ŠëŠ”ë‹¤. ë”°ë¼ì„œ ìœ„ì˜ ì˜ˆì œë§Œìœ¼ë¡œë„ if~elseê°€ ì´í•´ë˜ì—ˆë‹¤ë©´, ë‹¤ìŒ Chapterì—ì„œ
+ê³µë¶€í•  ë‚´ìš©ì´ ê·¸ë§Œí¼ ì¤„ì–´ë“  ì…ˆì´ë‹¤.
 */
