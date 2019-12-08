@@ -4,8 +4,8 @@ public class _14_PrefixOp {
 		int num1 = 7;
 		int num2, num3;
 		
-		num2 = ++num1;  // num1Àº 8ÀÌ µÊ
-		num3 = --num1;  // num1Àº ´Ù½Ã 7ÀÌ µÊ
+		num2 = ++num1;  // num1ì€ 8ì´ ë¨
+		num3 = --num1;  // num1ì€ ë‹¤ì‹œ 7ì´ ë¨
 		
 		System.out.println(num1);
 		System.out.println(num2);
@@ -15,15 +15,15 @@ public class _14_PrefixOp {
 }
 
 /*  
-¡á Áõ°¡, °¨¼Ò ¿¬»êÀÚ(++, --) : prefix
-ÀÌ¹ø¿¡´Â º¯¼ö¿¡ ÀúÀåµÈ °ªÀ» ÇÏ³ª Áõ°¡ ¹× °¨¼Ò½ÃÅ°´Â ±â´ÉÀÇ ¿¬»êÀÚ¸¦ ¼Ò°³ÇÏ°íÀÚ ÇÑ´Ù.
-ÀÌµéÀº È°¿ëÀÇ ºóµµ°¡ ¸Å¿ì°¡ ³ôÀ¸¸é¼­µµ È¥µ¿ÇÏ±â ½¬¿ì¹Ç·Î È®½ÇÈ÷ ÀÌÇØÇÏ°í ³Ñ¾î°¡¾ß ÇÑ´Ù.
+â–  ì¦ê°€, ê°ì†Œ ì—°ì‚°ìž(++, --) : prefix
+ì´ë²ˆì—ëŠ” ë³€ìˆ˜ì— ì €ìž¥ëœ ê°’ì„ í•˜ë‚˜ ì¦ê°€ ë° ê°ì†Œì‹œí‚¤ëŠ” ê¸°ëŠ¥ì˜ ì—°ì‚°ìžë¥¼ ì†Œê°œí•˜ê³ ìž í•œë‹¤.
+ì´ë“¤ì€ í™œìš©ì˜ ë¹ˆë„ê°€ ë§¤ìš°ê°€ ë†’ìœ¼ë©´ì„œë„ í˜¼ë™í•˜ê¸° ì‰¬ìš°ë¯€ë¡œ í™•ì‹¤ížˆ ì´í•´í•˜ê³  ë„˜ì–´ê°€ì•¼ í•œë‹¤.
 
-¿¬»êÀÚ          ¿¬»êÀÚÀÇ ±â´É                            °áÇÕ¹æÇâ
-++       ÇÇ¿¬»êÀÚ¿¡ ÀúÀåµÈ °ªÀ» 1 Áõ°¡      ¡ç
-(prefix) ¿¹) val = ++n;
---       ÇÇ¿¬»êÀÚ¿¡ ÀúÀåµÈ °ªÀ» 1 °¨¼Ò      ¡ç
-(prefix) ¿¡) val = --n;
+ì—°ì‚°ìž   ì—°ì‚°ìžì˜ ê¸°ëŠ¥                     ê²°í•©ë°©í–¥
+++       í”¼ì—°ì‚°ìžì— ì €ìž¥ëœ ê°’ì„ 1 ì¦ê°€      â†
+(prefix) ì˜ˆ) val = ++n;
+--       í”¼ì—°ì‚°ìžì— ì €ìž¥ëœ ê°’ì„ 1 ê°ì†Œ      â†
+(prefix) ì—) val = --n;
 
-ÀÌ µÎ ¿¬»êÀÚ´Â prefix ¿¬»êÀÚÀÌ´Ù.(prefix´Â Á¢µÎ»ç¶ó´Â ¶æÀÌ´Ù.) ½±°Ô ¼³¸íÇÏ¸é ÇÇ¿¬»êÀÚÀÇ ¾ÕºÎºÐ¿¡ ºÙ´Â ¿¬»êÀÚ¶ó´Â ¶æÀÌ´Ù.
+ì´ ë‘ ì—°ì‚°ìžëŠ” prefix ì—°ì‚°ìžì´ë‹¤.(prefixëŠ” ì ‘ë‘ì‚¬ë¼ëŠ” ëœ»ì´ë‹¤.) ì‰½ê²Œ ì„¤ëª…í•˜ë©´ í”¼ì—°ì‚°ìžì˜ ì•žë¶€ë¶„ì— ë¶™ëŠ” ì—°ì‚°ìžë¼ëŠ” ëœ»ì´ë‹¤.
 */
