@@ -1,8 +1,8 @@
 public class _31_Problem_05_7_2 {
 
 	public static void main(String[] args) {
-		System.out.println("πÆ¡¶ 5-7 [π›∫ππÆ¿« ¡ﬂ√∏]");
-		System.out.println("πÆ¡¶ 2)");
+		System.out.println("Î¨∏Ï†ú 5-7 [Î∞òÎ≥µÎ¨∏Ïùò Ï§ëÏ≤©]");
+		System.out.println("Î¨∏Ï†ú 2)");
 		
 		int A, B;
 		
