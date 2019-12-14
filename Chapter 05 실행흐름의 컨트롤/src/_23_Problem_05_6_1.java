@@ -2,8 +2,8 @@
 public class _23_Problem_05_6_1 {
 
 	public static void main(String[] args) {
-		System.out.println("¹®Á¦ 5-6 [continue¹®°ú break¹®ÀÇ È°¿ë]");
-		System.out.println("¹®Á¦ 1)");
+		System.out.println("ë¬¸ì œ 5-6 [continueë¬¸ê³¼ breakë¬¸ì˜ í™œìš©]");
+		System.out.println("ë¬¸ì œ 1)");
 		
 		int count = 0;
 		
