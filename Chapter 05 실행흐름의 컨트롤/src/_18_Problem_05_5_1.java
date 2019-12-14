@@ -1,8 +1,8 @@
 public class _18_Problem_05_5_1 {
 
 	public static void main(String[] args) {
-		System.out.println("¹®Á¦ 5-5 [for¹®ÀÇ È°¿ë]");
-		System.out.println("¹®Á¦ 1)");
+		System.out.println("ë¬¸ì œ 5-5 [forë¬¸ì˜ í™œìš©]");
+		System.out.println("ë¬¸ì œ 1)");
 		
 		int num, avg = 1;
 		
